@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-isEqualDateObject = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-date-object@umd/browser.js' )
+isEqualDateObject = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-date-object@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var isEqualDateObject = require( 'path/to/vendor/umd/assert-is-equal-date-object
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-date-object@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-date-object@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -97,7 +97,7 @@ bool = isEqualDateObject( d1, new Date( 2023, 11, 31, 23, 59, 59, 78 ) );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-date-object@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-date-object@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
